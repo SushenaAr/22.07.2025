@@ -16,7 +16,6 @@ import (
 	"strings"
 )
 
-// ошибки, логи и ответы систематизировать
 type ServiceI interface {
 	CreateTaskForZIPAchieve(c *gin.Context)
 	AddFileIntoTask(c *gin.Context)
